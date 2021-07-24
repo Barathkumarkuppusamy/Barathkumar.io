@@ -1,0 +1,279 @@
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    /* top: 42%; */
+     top: 20vw;
+}
+
+.body-bg-color {
+    background-color: rgb(241, 241, 241);
+}
+
+.arrow-size {
+    margin-top: 190px;
+    margin-left: 575px;
+    height: 40px;
+}
+
+.main-heading {
+    font-family: roboto;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.main-desc {
+    font-family: roboto;
+    font-weight: bolder;
+    color: rgb(211, 209, 209);
+    font-size: 25px;
+}
+
+.sub-heading {
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(46, 46, 59);
+    font-size: 32px;
+}
+
+.sub-desc {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(110, 110, 110, 0.864);
+    font-size: 15px;
+}
+
+.section1-bg {
+    background-image: url('/img/Dots.png');
+    background-repeat: no-repeat;
+    background-size: 590px 500px;
+    background-position: 0% 20%;
+}
+
+.section2-bg {
+    background-image: url('/img/Dots.png');
+    background-repeat: no-repeat;
+    background-size: 590px 500px;
+    background-position: 0% -10%;
+}
+
+.section3-bg {
+    background-image: url('/img/Dots.png');
+    background-repeat: no-repeat;
+    background-size: 590px 500px;
+    background-position: 0% 10%;
+}
+
+.section4-bg {
+    background-image: url('/img/Dots.png');
+    background-repeat: no-repeat;
+    background-size: 590px 500px;
+    background-position: 0% 10%;
+}
+
+.card-heading1 {
+    font-family: system-ui;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+}
+
+.card-heading {
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(46, 46, 59);
+    font-size: 23px;
+}
+
+.card {
+    height: 240px;
+}
+
+.progress-heading {
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(46, 49, 51);
+    font-size: 13px;
+}
+
+.f-20px {
+    font-size: 20px;
+}
+
+.f-12px {
+    font-size: 12px;
+}
+
+.blue-bar {
+    background-color: #17bed2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.h-3px {
+    height: 3px;
+}
+
+.h-500px {
+    height: 500px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* width: 225px;
+    height: 230px; */
+    background-color: #17bed2;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.icon-color-light {
+    color: #ffa705;
+}
+
+.heightcontact {
+    height: 200px;
+}
+
+#background {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    min-width: 50%;
+}
+
+#bg-introtext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 41%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-abouttext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 35%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-experiencetext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 9%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-worktext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 39%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-contacttext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 25%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+    
+}
+
+.content-lg {
+    padding-top: 65px;
+    /* padding-bottom: 65px; */
+}
+
+@media (min-width: 1200px) {
+    .bg-text-display {
+       display: none!important;
+    }
+  }
+
+  @media (min-width: 1366px) {
+    .bg-text-display1 {
+       display: block!important;
+    }
+  }
+
+  
+  /* .hex-bg {
+    background-image: url('img/Hexagon-Light-Blue-PNG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55px;
+} */
+
+
+.hexagon-wrapper {
+    margin: auto;
+    display: flex;
+    text-align: initial;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  .hexagon {
+    position: relative;
+    width: 46%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    background: #30302f;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  
+  .hexagon i {
+    z-index: 1;
+    /* margin: auto; */
+    font-size: 50px;
+    color: transparent;
+    background: whitesmoke;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-style: normal!important;
+    font-weight: bold;
+    font-family: system-ui;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .hexagon:before {
+    transform: rotateZ(60deg);
+  }
+  .hexagon:after {
+    transform: rotateZ(-60deg);
+  }
+

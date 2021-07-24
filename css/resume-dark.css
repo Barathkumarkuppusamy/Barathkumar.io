@@ -1,0 +1,240 @@
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 20vw;
+        }
+
+        .arrow-size {
+            margin-top: 16vw;
+            margin-left: 46vw;
+            height: 3vw;
+        }
+
+        .main-heading {
+            font-family: roboto;
+            font-weight: bold;
+            color: whitesmoke;
+            font-size: 45px;
+        }
+
+        .main-desc {
+            font-family: roboto;
+            font-weight: bolder;
+            color: rgb(211, 209, 209);
+            font-size: 25px;
+        }
+
+        .section1 {
+            background-color: #252525;
+        }
+
+        .section2 {
+            background-color: #2f2f2f;
+        }
+
+        .sub-heading {
+            font-family: system-ui;
+            font-weight: bold;
+            color: white;
+            font-size: 32px;
+        }
+
+        .sub-desc {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: rgb(211, 209, 209);
+            font-size: 15px;
+        }
+
+
+        .card-heading {
+            font-family: system-ui;
+            font-weight: bold;
+            color: whitesmoke;
+            font-size: 23px;
+        }
+
+        .progress-heading {
+            font-family: system-ui;
+            font-weight: bold;
+            color: whitesmoke;
+            font-size: 13px;
+        }
+
+        .f-20px {
+            font-size: 20px;
+        }
+        
+        .f-12px {
+            font-size: 12px;
+        }
+
+        .blue-bar {
+            background-color: #17bed2;
+        }
+
+        .h-3px {
+            height: 3px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .zoom {
+            transition: transform .2s;
+            /* width: 225px;
+            height: 230px; */
+            background-color: #252525;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);            
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1.1);
+            /* Safari 3-8 */
+            transform: scale(1.1);
+            background-color: #17bed2;        
+
+        }
+
+        .icon-color-dark {
+            color: #b57602;
+        }
+
+        #background {
+            position: absolute;
+            z-index: 0;
+            display: block;
+            min-width: 50%;
+        }
+
+        #bg-abouttext {
+            color: rgb(189, 187, 187);
+            font-size: 60px;
+            margin-left: 35%;
+            font-family: sans-serif;
+            font-weight: 800;
+            opacity: 10%;
+        }
+
+        #bg-introtext {
+            color: rgb(189, 187, 187);
+            font-size: 60px;
+            margin-left: 20.5vw;
+            font-family: sans-serif;
+            font-weight: 800;
+            opacity: 10%;
+        }
+
+        #bg-experiencetext {
+            color: rgb(189, 187, 187);
+            font-size: 60px;
+            margin-left: 9%;
+            font-family: sans-serif;
+            font-weight: 800;
+            opacity: 10%;
+        }
+
+        #bg-worktext {
+            color: rgb(189, 187, 187);
+            font-size: 60px;
+            margin-left: 39%;
+            font-family: sans-serif;
+            font-weight: 800;
+            opacity: 10%;
+        }
+
+        #bg-contacttext {
+            color: rgb(189, 187, 187);
+            font-size: 60px;
+            margin-left: 25%;
+            font-family: sans-serif;
+            font-weight: 800;
+            opacity: 10%;
+        }
+
+        .content-lg {
+            padding-top: 65px;
+            /* padding-bottom: 65px; */
+        }
+
+        .heightcontact {
+            height: 200px;
+        }
+
+        @media (min-width: 1200px) {
+            .bg-text-display {
+               display: none!important;
+            }
+          }
+        
+          @media (min-width: 1366px) {
+            .bg-text-display1 {
+               display: block!important;
+            }
+          }
+        
+          
+          /* .hex-bg {
+            background-image: url('img/Hexagon-Light-Blue-PNG.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 55px;
+        } */
+        
+        
+        .hexagon-wrapper {
+            margin: auto;
+            display: flex;
+            text-align: initial;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+          }
+          
+          .hexagon {
+            position: relative;
+            width: 46%;
+            height: 80%;
+            margin: auto;
+            color: white;
+            background: #17bed2;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            transition: 0.5s;
+          }
+          
+          .hexagon i {
+            z-index: 1;
+            /* margin: auto; */
+            font-size: 50px;
+            color: transparent;
+            background: whitesmoke;
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-style: normal!important;
+            font-weight: bold;
+            font-family: system-ui;
+          }
+          
+          .hexagon:before,
+          .hexagon:after {
+            position: absolute;
+            content: "";
+            background: inherit;
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+            transition: 0.5s;
+            transform-origin: center;
+          }
+          
+          .hexagon:before {
+            transform: rotateZ(60deg);
+          }
+          .hexagon:after {
+            transform: rotateZ(-60deg);
+          }
