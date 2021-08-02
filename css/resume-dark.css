@@ -100,7 +100,7 @@
         }
 
         .icon-color-dark {
-            color: #b57602;
+            color: #868686;
         }
 
         #background {
@@ -237,4 +237,16 @@
           }
           .hexagon:after {
             transform: rotateZ(-60deg);
+          }
+
+          .my-grayscale {
+            filter: gray; /* IE6-9 */
+            -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+            filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+          }
+          
+          /* Disable grayscale on hover */
+          .my-grayscale:hover {
+            -webkit-filter: grayscale(0);
+            filter: none;
           }
