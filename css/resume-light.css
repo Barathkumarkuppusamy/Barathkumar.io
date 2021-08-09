@@ -85,6 +85,13 @@
     font-size: 23px;
 }
 
+.modal-title {
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(46, 46, 59);
+    font-size: 20px;
+}
+
 .card {
     height: 240px;
 }
@@ -94,6 +101,13 @@
     font-weight: bold;
     color: rgb(46, 49, 51);
     font-size: 13px;
+}
+
+.modal-heading {
+    font-family: system-ui;
+    font-weight: bold;
+    color: rgb(46, 49, 51);
+    font-size: 15px;
 }
 
 .f-20px {
@@ -173,6 +187,15 @@
     color: rgb(78, 78, 78);
     font-size: 60px;
     margin-left: 9%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-certificationtext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 3%;
     font-family: sans-serif;
     font-weight: 800;
     opacity: 10%;
@@ -287,4 +310,8 @@
   .my-grayscale:hover {
     -webkit-filter: grayscale(0);
     filter: none;
+  }
+
+  .h-180px {
+      height: 180px;
   }
