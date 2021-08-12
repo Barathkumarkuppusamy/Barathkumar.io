@@ -22,11 +22,25 @@
     font-size: 45px;
 }
 
+.education-heading {
+    font-family: roboto;
+    font-weight: bold;
+    color: rgb(46, 46, 59);
+    font-size: 36px;
+}
+
 .main-desc {
     font-family: roboto;
     font-weight: bolder;
     color: rgb(211, 209, 209);
     font-size: 25px;
+}
+
+.main-desc-1 {
+    font-family: roboto;
+    font-weight: bolder;
+    color: rgb(46, 46, 59);
+    font-size: 22px;
 }
 
 .sub-heading {
@@ -82,7 +96,7 @@
     font-family: system-ui;
     font-weight: bold;
     color: rgb(46, 46, 59);
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .modal-title {
@@ -186,6 +200,15 @@
 #bg-experiencetext {
     color: rgb(78, 78, 78);
     font-size: 60px;
+    margin-left: 37%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-experiencetext1 {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
     margin-left: 9%;
     font-family: sans-serif;
     font-weight: 800;
@@ -201,10 +224,37 @@
     opacity: 10%;
 }
 
+#bg-graduationtext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-hsctext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
+#bg-sslctext {
+    color: rgb(78, 78, 78);
+    font-size: 60px;
+    margin-left: 38%;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 10%;
+}
+
 #bg-worktext {
     color: rgb(78, 78, 78);
     font-size: 60px;
-    margin-left: 39%;
+    margin-left: 29%;
     font-family: sans-serif;
     font-weight: 800;
     opacity: 10%;
@@ -222,6 +272,11 @@
 
 .content-lg {
     padding-top: 65px;
+    /* padding-bottom: 65px; */
+}
+
+.content-xl {
+    padding-top: 105px;
     /* padding-bottom: 65px; */
 }
 
@@ -315,3 +370,51 @@
   .h-180px {
       height: 180px;
   }
+
+
+  .animated-text:after {
+    content: ".";
+    display: inline;
+    width: 6px;
+    text-indent: 0;
+    /* overflow: hidden; */
+    background: var(--col-icon);
+    animation: blink 0.3s infinite alternate;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blink;
+}
+
+.animated-text span {
+    display: none;
+    line-height: 1;
+  }
+  
+  .animated-text span.active {
+    display: inline;
+  }
+  
+  .animated-text:after {
+    content: ".";
+    display: inline;
+    width: 6px;
+    text-indent: 0;
+    /* overflow: hidden; */
+    background: var(--col-icon);
+    animation: blink 0.3s infinite alternate;
+  }
+  .datawords{
+    white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  
+.background-blue {
+  background-color: #17bed2;
+}
