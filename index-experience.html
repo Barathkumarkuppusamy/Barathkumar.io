@@ -20,24 +20,15 @@
     <link rel="stylesheet" href="css/resume-light.css">
 
 
-    <style>
-        .intro-bg {
-            background-image: url('img/Bg5.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* height: 655px; */
-            height: 50vw;
-        }
-    </style>
-
 </head>
 
 <body class="body-bg-color">
 
     <!--Navbar -->
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top scrolling-navbar">
-            <a class="navbar-brand" href="resume.pdf">My Resume</a>
+            <a class="navbar-brand text-info font-weight-bold" href="resume.pdf">My Resume</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -50,12 +41,6 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#intro">Intro</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="index-skills.html">Skills</a>
                     </li>
@@ -80,24 +65,12 @@
             </div>
         </nav>
     </header>
+
     <!--/.Navbar -->
 
     <main>
 
         <!-- Home Section -->
-
-        <!-- <section class="intro-bg" id="home">
-            <div class="vertical-center pl-5">
-                <h1 class="main-heading">
-                    BARATH KUMAR</h1>
-                <p class="main-desc text-center text-sm-left text-xl-left">
-                    Web Developer</p>
-                    <span style="display: inline;">I am into <span class="animated-text" data-words="Designing, UI/UX, Web Development"><span class="active">W</span><span class="active">e</span><span class="active">b</span><span class="active">&nbsp;</span><span class="active">D</span><span class="active">e</span><span class="active">v</span><span class="active">e</span><span class="active">l</span><span class="active">o</span><span class="active">p</span><span class="active">m</span><span class="active">e</span><span class="active">n</span><span class="active">t</span></span>
-                </span>
-                <a href="#about">
-                        <img class="img-fluid arrow-size animated bounce infinite d-none d-xl-block" src="img/Arrow.png" alt="Arrow"></a>
-            </div>
-        </section> -->
 
         <section class="">
             <div class="container content-xl">
@@ -136,7 +109,7 @@
                                     <div class="zoom">
                                         <div class="card-body">
                                             <div class="card-heading white-text my-3">Personiv</div>
-                                            <p class="sub-desc white-text"><i>I have joined as as Process Executive</i>
+                                            <p class="sub-desc white-text"><i>I have joined as Process Executive</i>
                                             </p>
                                             <p class="sub-desc white-text"><i>My work nature was manual testing</i>
                                             </p>
@@ -154,7 +127,8 @@
                                                     2
                                                     yrs</i>
                                             </p>
-                                            <p class="sub-desc white-text"><i>I develop creative websites</i>
+                                            <p class="sub-desc white-text"><i>I develop creative and responsive
+                                                    websites</i>
                                             </p>
                                             <p class="sub-desc white-text"><i>I design attractive banners</i>
                                             </p>
@@ -247,6 +221,59 @@
                 class="fas fa-2x fa-angle-up" aria-hidden="true"></i></button>
 
         <!-- /Float Button -->
+
+        <!-- Float Button contact -->
+
+        <button id="btnContact" class="btn-info" data-toggle="modal" data-target="#basicExampleModal"><i
+                class="fas fa-phone-alt white-text" aria-hidden="true"></i></button>
+
+        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="card-heading" id="exampleModalLabel">Contact</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="progress-heading"><i class="fas fa-mobile fa-lg pr-2"></i>Phone</div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">+91 9442383143</p>
+                            </div>
+                        </div>
+                        <hr class="mt-1">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="progress-heading"><i class="fas fa-envelope fa-lg pr-1"></i>E-Mail</div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">kbarath3694@gmail.com</p>
+                            </div>
+                        </div>
+                        <hr class="mt-1">
+                        <div class="row">
+                            <div class="col-4 pr-1">
+                                <div class="progress-heading"><i class="fas fa-map-marker-alt fa-lg pr-1"></i>Location
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">Salem,Tamilnadu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /Float Button contact -->
 
     </main>
 

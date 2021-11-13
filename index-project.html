@@ -20,24 +20,15 @@
     <link rel="stylesheet" href="css/resume-light.css">
 
 
-    <style>
-        .intro-bg {
-            background-image: url('img/Bg5.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* height: 655px; */
-            height: 50vw;
-        }
-    </style>
-
 </head>
 
 <body class="body-bg-color">
 
     <!--Navbar -->
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top scrolling-navbar">
-            <a class="navbar-brand" href="resume.pdf">My Resume</a>
+            <a class="navbar-brand text-info font-weight-bold" href="resume.pdf">My Resume</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -74,25 +65,12 @@
             </div>
         </nav>
     </header>
+
     <!--/.Navbar -->
 
     <main>
 
         <!-- Home Section -->
-
-        <!-- <section class="intro-bg" id="home">
-            <div class="vertical-center pl-5">
-                <h1 class="main-heading">
-                    BARATH KUMAR</h1>
-                <p class="main-desc text-center text-sm-left text-xl-left">
-                    Web Developer</p>
-                    <span style="display: inline;">I am into <span class="animated-text" data-words="Designing, UI/UX, Web Development"><span class="active">W</span><span class="active">e</span><span class="active">b</span><span class="active">&nbsp;</span><span class="active">D</span><span class="active">e</span><span class="active">v</span><span class="active">e</span><span class="active">l</span><span class="active">o</span><span class="active">p</span><span class="active">m</span><span class="active">e</span><span class="active">n</span><span class="active">t</span></span>
-                </span>
-                <a href="#about">
-                        <img class="img-fluid arrow-size animated bounce infinite d-none d-xl-block" src="img/Arrow.png" alt="Arrow"></a>
-            </div>
-        </section> -->
-
 
         <section class="">
             <div class="container content-xl">
@@ -109,7 +87,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- /Home Section -->
 
@@ -131,7 +108,6 @@
                             <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3">
                                 <div class="card-heading">Project-1
                                 </div>
-                                <!-- <div class="sub-desc py-2">This portfolio website was conceptualized by me.</div> -->
                                 <a href="https://barathkumark.github.io/Portfolio/" target="_blank">
                                     <img src="img/Portfolio1.jpg" class="img-fluid my-3 hoverable h-180px">
                                 </a>
@@ -145,7 +121,7 @@
                             <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3">
                                 <div class="card-heading">Project-2
                                 </div>
-                                <!-- <div class="sub-desc py-2">This portfolio website was conceptualized by me.</div> -->
+
                                 <a href="https://www.nmindiabio.com/" target="_blank">
                                     <img src="img/project2.jpg" class="img-fluid my-3 hoverable h-180px">
                                 </a>
@@ -156,13 +132,25 @@
                                     </button>
                                 </div>
                             </div>
+                            <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3 d-none">
+                                <div class="card-heading">Project-2
+                                </div>
+                                <a href="http://suneventt.in/" target="_blank">
+                                    <img src="img/project5.jpg" class="img-fluid my-3 hoverable h-180px">
+                                </a>
+                                <div class="">
+                                    <button type="button" target="_blank" class="btn btn-sm btn-info ml-0"
+                                        onclick="document.location='http://suneventt.in/'">
+                                        Go Live
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                         <div class="row mt-xl-5">
 
                             <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3">
                                 <div class="card-heading">Project-3
                                 </div>
-                                <!-- <div class="sub-desc py-2">This portfolio website was conceptualized by me.</div> -->
                                 <a href="https://www.royalsundaram.in/" target="_blank">
                                     <img src="img/project3.jpg" class="img-fluid my-3 hoverable h-180px">
                                 </a>
@@ -176,13 +164,29 @@
                             <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3">
                                 <div class="card-heading">Project-4
                                 </div>
-                                <!-- <div class="sub-desc py-2">This portfolio website was conceptualized by me.</div> -->
                                 <a href="https://vedantaorgano.com/" target="_blank">
                                     <img src="img/Project4.jpg" class="img-fluid my-3 hoverable h-180px">
                                 </a>
                                 <div class="">
                                     <button type="button" target="_blank" class="btn btn-sm btn-info ml-0"
                                         onclick="document.location='https://vedantaorgano.com/'">
+                                        Go Live
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-xl-5 d-none">
+
+                            <div class="col-xl-6 col-12 col-md-6 py-xl-0 py-3">
+                                <div class="card-heading">Project-5
+                                </div>
+                                <a href="https://www.nmindiabio.com/" target="_blank">
+                                    <img src="img/project2.jpg" class="img-fluid my-3 hoverable h-180px">
+                                </a>
+                                <div class="">
+                                    <button type="button" target="_blank" class="btn btn-sm btn-info ml-0"
+                                        onclick="document.location='https://www.nmindiabio.com/'">
                                         Go Live
                                     </button>
                                 </div>
@@ -273,6 +277,59 @@
                 class="fas fa-2x fa-angle-up" aria-hidden="true"></i></button>
 
         <!-- /Float Button -->
+
+        <!-- Float Button contact -->
+
+        <button id="btnContact" class="btn-info" data-toggle="modal" data-target="#basicExampleModal"><i
+                class="fas fa-phone-alt white-text" aria-hidden="true"></i></button>
+
+        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="card-heading" id="exampleModalLabel">Contact</div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="progress-heading"><i class="fas fa-mobile fa-lg pr-2"></i>Phone</div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">+91 9442383143</p>
+                            </div>
+                        </div>
+                        <hr class="mt-1">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="progress-heading"><i class="fas fa-envelope fa-lg pr-1"></i>E-Mail</div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">kbarath3694@gmail.com</p>
+                            </div>
+                        </div>
+                        <hr class="mt-1">
+                        <div class="row">
+                            <div class="col-4 pr-1">
+                                <div class="progress-heading"><i class="fas fa-map-marker-alt fa-lg pr-1"></i>Location
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p class="sub-desc">Salem,Tamilnadu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /Float Button contact -->
 
     </main>
 
